@@ -1,0 +1,7 @@
+{"status": "ok", "message-type": "work", "message": {
+  "DOI": "10.1234/rfa.example.001", "type": "journal-article",
+  "title": ["Sample article title in sentence case"],
+  "container-title": ["Journal of Examples"], "short-container-title": ["J Examples"],
+  "author": [{"given": "Ana Maria", "family": "Rivera", "sequence": "first"}, {"given": "Luis", "family": "Gomez", "sequence": "additional"}],
+  "issued": {"date-parts": [[2021, 5, 10]]}, "volume": "12", "issue": "3", "page": "45-67",
+  "publisher": "Example Publisher", "URL": "http://dx.doi.org/10.1234/rfa.example.001"}}

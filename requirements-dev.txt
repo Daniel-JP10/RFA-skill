@@ -1,0 +1,4 @@
+# Development and test dependencies of the RFA skill (run from the skill folder)
+-r references/requirements.txt
+pytest==9.1.1
+pypandoc_binary==1.17

@@ -1,0 +1,2346 @@
+{
+  "ai_policies": {
+    "acm": {
+      "ai_authorship": "not_allowed",
+      "exempt": [
+        "basic_spelling_grammar_punctuation",
+        "synonym_suggestions"
+      ],
+      "images": "Do not present AI-generated images as empirical evidence unless the model is the object being evaluated.",
+      "locations": [
+        "acknowledgments",
+        "disclosure_section",
+        "methodology"
+      ],
+      "name": "ACM",
+      "needs_review": true,
+      "note": "Reading of the official page by a research pass. An earlier secondary source summarized that ACM no longer requires disclosure of writing assistance; check the official text.",
+      "policy_date": "2026-05-14",
+      "policy_url": "https://www.acm.org/publications/policies/new-acm-policy-on-authorship",
+      "publisher_profile": "acm",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "writing_assistance": "disclose_if_generative"
+    },
+    "apa-journals": {
+      "ai_authorship": "not_allowed",
+      "exempt": [],
+      "images": "Full disclosure and verification of reproduction rights.",
+      "locations": [
+        "submission_form",
+        "methods",
+        "acknowledgments",
+        "reference_list"
+      ],
+      "name": "APA Journals",
+      "needs_review": false,
+      "policy_date": "2025-08",
+      "policy_url": "https://www.apa.org/pubs/journals/resources/publishing-tips/policy-generative-ai",
+      "publisher_profile": null,
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-24",
+      "writing_assistance": "disclose"
+    },
+    "cope": {
+      "ai_authorship": "not_allowed",
+      "exempt": [],
+      "images": "Disclose the tool and the part of the manuscript, images or data analysis where it was used.",
+      "locations": [
+        "methods"
+      ],
+      "name": "COPE",
+      "needs_review": false,
+      "policy_date": "2023-02",
+      "policy_url": "https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools",
+      "publisher_profile": null,
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "writing_assistance": "disclose"
+    },
+    "elsevier": {
+      "additional_urls": [
+        "https://www.elsevier.com/about/policies-and-standards/publishing-ethics-books/generative-ai-policies"
+      ],
+      "ai_authorship": "not_allowed",
+      "exempt": [
+        "basic_spelling_grammar"
+      ],
+      "images": "Creating, altering or manipulating images, figures or illustrations with generative AI is prohibited unless it is part of the method, described reproducibly in the methods.",
+      "locations": [
+        "separate_section_before_references"
+      ],
+      "name": "Elsevier",
+      "needs_review": false,
+      "note": "Journal policy page; the previous URL is the policy for books. A research pass also reported exemptions for basic reference-manager functions without generative AI and for accessibility assistive technology; only the grammar, spelling and punctuation exemption was confirmed independently.",
+      "policy_date": "2026-06",
+      "policy_url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+      "publisher_profile": "elsevier",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-24",
+      "writing_assistance": "disclose"
+    },
+    "icmje": {
+      "additional_urls": [
+        "https://www.icmje.org/recommendations/browse/artificial-intelligence/"
+      ],
+      "ai_authorship": "not_allowed",
+      "exempt": [],
+      "images": "Describe in the methods the use of AI to collect data, analyze or create figures, stating the tool, version and manufacturer.",
+      "locations": [
+        "cover_letter",
+        "acknowledgments",
+        "methods"
+      ],
+      "name": "ICMJE",
+      "needs_review": false,
+      "policy_date": "2026-01",
+      "policy_url": "https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html",
+      "publisher_profile": null,
+      "research_conduct": "disclose",
+      "verified_by": [
+        "orchestrator_search",
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "writing_assistance": "disclose"
+    },
+    "ieee": {
+      "ai_authorship": "not_allowed",
+      "exempt": [
+        "editing_grammar_enhancement"
+      ],
+      "images": "Disclose the use and verify that it does not infringe third-party rights.",
+      "locations": [
+        "acknowledgments",
+        "methods"
+      ],
+      "name": "IEEE",
+      "needs_review": false,
+      "note": "Editing and grammar enhancement is outside the policy's intent, but IEEE recommends disclosing it in the Acknowledgment section.",
+      "policy_date": "2024-04",
+      "policy_url": "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/",
+      "publisher_profile": "ieee-journals",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-24",
+      "writing_assistance": "disclose_if_generative"
+    },
+    "mdpi": {
+      "ai_authorship": "not_allowed",
+      "exempt": [
+        "basic_language_editing"
+      ],
+      "images": "Creating or altering figures with AI is prohibited unless the method is the object of the research.",
+      "locations": [
+        "materials_and_methods",
+        "acknowledgments"
+      ],
+      "name": "MDPI",
+      "needs_review": false,
+      "policy_date": "2024-05",
+      "policy_url": "https://www.mdpi.com/ethics#_bookmark18",
+      "publisher_profile": "mdpi",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "writing_assistance": "disclose"
+    },
+    "plos": {
+      "ai_authorship": "not_allowed",
+      "exempt": [
+        "language_improvements"
+      ],
+      "images": "Allowed for illustration or summary, never for primary data, with a disclosure in the legend.",
+      "locations": [
+        "methods",
+        "acknowledgments",
+        "figure_legends"
+      ],
+      "name": "PLOS",
+      "needs_review": false,
+      "note": "Language improvements need no disclosure; disclosing AI-assisted translation is recommended. AI-generated figures are allowed for illustration or summary, with a disclosure in the figure legend.",
+      "policy_date": "2026-01",
+      "policy_url": "https://journals.plos.org/plosone/s/ethical-publishing-practice",
+      "publisher_profile": "plos",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-24",
+      "writing_assistance": "disclose_if_generative"
+    },
+    "sage": {
+      "ai_authorship": "not_allowed",
+      "exempt": [
+        "assistive_grammar_structure"
+      ],
+      "images": "Do not present AI-generated images as original research; only as illustration with a disclosure.",
+      "locations": [
+        "methods",
+        "acknowledgments"
+      ],
+      "name": "SAGE",
+      "needs_review": false,
+      "policy_date": "2026-01",
+      "policy_url": "https://www.sagepub.com/journals/publication-ethics-policies/artificial-intelligence-policy",
+      "publisher_profile": "sage",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "writing_assistance": "disclose_if_generative"
+    },
+    "springer-nature": {
+      "additional_urls": [
+        "https://www.springernature.com/gp/policies/editorial-policies"
+      ],
+      "ai_authorship": "not_allowed",
+      "exempt": [],
+      "images": "Red category: AI may not be used to replace scientific judgment or to fabricate or manipulate data or images, unless it is the object of study.",
+      "locations": [
+        "methods",
+        "dedicated_section"
+      ],
+      "name": "Springer Nature",
+      "needs_review": false,
+      "note": "The author guidance classifies even low-risk uses such as language editing as requiring a description of the use and confirmation of author accountability. The previous URL is guidance for editors. The author page shows no date; policy_date comes from an earlier reading.",
+      "policy_date": "2026-01",
+      "policy_url": "https://www.springernature.com/gp/policies/editorial-policies/ai-manuscript-preparation",
+      "publisher_profile": "springer-nature",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-24",
+      "writing_assistance": "disclose"
+    },
+    "taylor-francis": {
+      "ai_authorship": "not_allowed",
+      "exempt": [],
+      "images": "Do not generate or alter figures or primary data unless they are the object of the methodology.",
+      "locations": [
+        "methods",
+        "acknowledgments",
+        "dedicated_declaration"
+      ],
+      "name": "Taylor & Francis",
+      "needs_review": false,
+      "policy_date": "2026-01",
+      "policy_url": "https://authorservices.taylorandfrancis.com/editorial-policies/ai-policy/",
+      "publisher_profile": "taylor-francis",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "writing_assistance": "disclose"
+    },
+    "wiley": {
+      "ai_authorship": "not_allowed",
+      "exempt": [
+        "spelling_grammar_general_editing"
+      ],
+      "images": "Do not present AI-generated images as original research images; illustrative use requires the editor's permission and a disclosure.",
+      "locations": [
+        "acknowledgments",
+        "methods"
+      ],
+      "name": "Wiley",
+      "needs_review": false,
+      "policy_date": "2026-07",
+      "policy_url": "https://authors.wiley.com/ethics-guidelines/index.html",
+      "publisher_profile": "wiley",
+      "research_conduct": "disclose",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-24",
+      "writing_assistance": "disclose"
+    }
+  },
+  "defaults": {
+    "business-management/accounting-finance": {
+      "allowed": [
+        "chicago-18",
+        "apa-7",
+        "harvard"
+      ],
+      "confidence": "low",
+      "default": "chicago-18",
+      "display_name": "Accounting and finance",
+      "evidence": "sampled",
+      "note": "The 2 Anglophone journals use Chicago author-date; the Spanish-language journal uses APA. Changed from the provisional default (apa-7).",
+      "sample_n": 3,
+      "variant": "author-date"
+    },
+    "business-management/management": {
+      "allowed": [
+        "apa-7",
+        "harvard",
+        "chicago-18"
+      ],
+      "confidence": "medium",
+      "default": "apa-7",
+      "display_name": "Management",
+      "evidence": "sampled",
+      "note": "Academy of Management uses its own guide derived from APA.",
+      "sample_n": 4
+    },
+    "health/dentistry": {
+      "allowed": [
+        "vancouver-nlm",
+        "ama-11",
+        "apa-7"
+      ],
+      "confidence": "medium",
+      "default": "vancouver-nlm",
+      "display_name": "Dentistry",
+      "evidence": "sampled",
+      "sample_n": 3
+    },
+    "health/medicine": {
+      "allowed": [
+        "vancouver-nlm",
+        "ama-11"
+      ],
+      "confidence": "high",
+      "default": "vancouver-nlm",
+      "display_name": "Medicine",
+      "evidence": "sampled",
+      "sample_n": 3
+    },
+    "health/nursing": {
+      "allowed": [
+        "vancouver-nlm",
+        "apa-7",
+        "ama-11"
+      ],
+      "confidence": "low",
+      "default": "vancouver-nlm",
+      "display_name": "Nursing",
+      "evidence": "sampled",
+      "note": "Sample of 4 journals: 3 Vancouver and 1 APA (one Wiley journal was blocked). The two Spanish-language journals are split between APA and Vancouver.",
+      "sample_n": 4
+    },
+    "health/pharmacology": {
+      "allowed": [
+        "vancouver-nlm",
+        "ama-11",
+        "apa-7"
+      ],
+      "confidence": "medium",
+      "default": "vancouver-nlm",
+      "display_name": "Pharmacology",
+      "evidence": "sampled",
+      "sample_n": 3
+    },
+    "health/public-health": {
+      "allowed": [
+        "vancouver-nlm",
+        "ama-11",
+        "apa-7",
+        "harvard"
+      ],
+      "confidence": "medium",
+      "default": "vancouver-nlm",
+      "display_name": "Public Health",
+      "evidence": "sampled",
+      "note": "4 of 5 journals use numeric styles (Vancouver or AMA).",
+      "sample_n": 5
+    },
+    "health/rehabilitation": {
+      "allowed": [
+        "vancouver-nlm",
+        "ama-11",
+        "apa-7"
+      ],
+      "confidence": "medium",
+      "default": "vancouver-nlm",
+      "display_name": "Rehabilitation",
+      "evidence": "sampled",
+      "sample_n": null
+    },
+    "humanities/history": {
+      "allowed": [
+        "chicago-18"
+      ],
+      "confidence": "high",
+      "default": "chicago-18",
+      "display_name": "History",
+      "evidence": "sampled",
+      "sample_n": 3,
+      "variant": "notes-bibliography"
+    },
+    "humanities/linguistics": {
+      "allowed": [
+        "apa-7",
+        "harvard",
+        "chicago-18",
+        "mla-9"
+      ],
+      "confidence": "low",
+      "default": "apa-7",
+      "display_name": "Linguistics",
+      "evidence": "sampled",
+      "gap": [
+        "lsa"
+      ],
+      "note": "The journal Language uses the LSA Unified Style Sheet (official source confirmed, 2007 version).",
+      "sample_n": 3
+    },
+    "humanities/literature": {
+      "allowed": [
+        "mla-9",
+        "chicago-18"
+      ],
+      "confidence": "high",
+      "default": "mla-9",
+      "display_name": "Literature",
+      "evidence": "sampled",
+      "sample_n": 3
+    },
+    "humanities/philosophy": {
+      "allowed": [
+        "harvard",
+        "chicago-18",
+        "apa-7",
+        "mla-9"
+      ],
+      "confidence": "low",
+      "default": "harvard",
+      "display_name": "Philosophy",
+      "evidence": "sampled",
+      "note": "The 2 Anglophone journals use their own author-date styles, grouped here as harvard; the Spanish-language journal uses APA. Changed from the provisional default (chicago-18).",
+      "sample_n": 3
+    },
+    "life-sciences/agronomy-veterinary": {
+      "allowed": [
+        "vancouver-nlm",
+        "cse",
+        "apa-7",
+        "harvard"
+      ],
+      "confidence": "low",
+      "default": "vancouver-nlm",
+      "display_name": "Agronomy and veterinary sciences",
+      "evidence": "sampled",
+      "note": "2 Vancouver and 1 CSE in the sample. Changed from the provisional default (apa-7).",
+      "sample_n": 3
+    },
+    "life-sciences/biology": {
+      "allowed": [
+        "vancouver-nlm",
+        "cse",
+        "apa-7"
+      ],
+      "confidence": "low",
+      "default": "vancouver-nlm",
+      "display_name": "Biology",
+      "evidence": "sampled",
+      "note": "2 of 3 journals use Vancouver; the ecology and evolution journals use CSE name-year. Changed from the provisional default (cse).",
+      "sample_n": 3
+    },
+    "life-sciences/biotechnology": {
+      "allowed": [
+        "vancouver-nlm",
+        "cse",
+        "apa-7",
+        "harvard"
+      ],
+      "confidence": "medium",
+      "default": "vancouver-nlm",
+      "display_name": "Biotechnology",
+      "evidence": "sampled",
+      "note": "Nature Biotechnology uses its own numeric style, grouped here with Vancouver.",
+      "sample_n": 3
+    },
+    "social-sciences/communication": {
+      "allowed": [
+        "apa-7",
+        "chicago-18",
+        "harvard"
+      ],
+      "confidence": "medium",
+      "default": "apa-7",
+      "display_name": "Communication",
+      "evidence": "sampled",
+      "sample_n": 3
+    },
+    "social-sciences/economics": {
+      "allowed": [
+        "chicago-18",
+        "apa-7",
+        "harvard"
+      ],
+      "confidence": "medium",
+      "default": "chicago-18",
+      "display_name": "Economics",
+      "evidence": "sampled",
+      "sample_n": null,
+      "variant": "author-date"
+    },
+    "social-sciences/education": {
+      "allowed": [
+        "apa-7",
+        "harvard",
+        "chicago-18"
+      ],
+      "confidence": "medium",
+      "default": "apa-7",
+      "display_name": "Education",
+      "evidence": "sampled",
+      "sample_n": 3
+    },
+    "social-sciences/law": {
+      "allowed": [
+        "bluebook",
+        "oscola",
+        "chicago-18",
+        "apa-7",
+        "colombia-legal-hybrid",
+        "iso-690"
+      ],
+      "confidence": "medium",
+      "default": "bluebook",
+      "display_name": "Law",
+      "evidence": "sampled",
+      "note": "In Colombia a hybrid practice predominates; see rule R-22.",
+      "sample_n": null
+    },
+    "social-sciences/political-science": {
+      "allowed": [
+        "chicago-18",
+        "apsa",
+        "apa-7"
+      ],
+      "confidence": "medium",
+      "default": "chicago-18",
+      "display_name": "Political Science",
+      "evidence": "sampled",
+      "sample_n": 3,
+      "variant": "author-date"
+    },
+    "social-sciences/psychology": {
+      "allowed": [
+        "apa-7",
+        "vancouver-nlm"
+      ],
+      "confidence": "high",
+      "default": "apa-7",
+      "display_name": "Psychology",
+      "evidence": "sampled",
+      "note": "BMC Psychology uses a biomedical numeric template.",
+      "sample_n": 3
+    },
+    "social-sciences/sociology": {
+      "allowed": [
+        "apa-7",
+        "asa",
+        "chicago-18"
+      ],
+      "confidence": "low",
+      "default": "apa-7",
+      "display_name": "Sociology",
+      "evidence": "sampled",
+      "note": "ASA, Chicago and APA each appear once. ASA is the field's own standard (see the open item about its edition).",
+      "sample_n": 3
+    },
+    "stem/chemistry": {
+      "allowed": [
+        "acs",
+        "vancouver-nlm"
+      ],
+      "confidence": "medium",
+      "default": "acs",
+      "display_name": "Chemistry",
+      "evidence": "sampled",
+      "note": "RSC uses its own numeric style, which has no folder in the repository.",
+      "sample_n": 3
+    },
+    "stem/computer-science": {
+      "allowed": [
+        "ieee",
+        "acm",
+        "apa-7"
+      ],
+      "confidence": "medium",
+      "default": "ieee",
+      "display_name": "Computer Science",
+      "evidence": "sampled",
+      "note": "IEEE and ACM are tied in the sample; an Ibero-American engineering journal uses APA.",
+      "sample_n": 3
+    },
+    "stem/earth-environmental": {
+      "allowed": [
+        "apa-7",
+        "chicago-18",
+        "vancouver-nlm"
+      ],
+      "confidence": "medium",
+      "default": "apa-7",
+      "display_name": "Earth and environmental sciences",
+      "evidence": "sampled",
+      "sample_n": null
+    },
+    "stem/engineering": {
+      "allowed": [
+        "ieee",
+        "aip",
+        "apa-7"
+      ],
+      "confidence": "medium",
+      "default": "ieee",
+      "display_name": "Engineering",
+      "evidence": "sampled",
+      "sample_n": 3
+    },
+    "stem/mathematics-statistics": {
+      "allowed": [
+        "ams",
+        "chicago-18",
+        "apa-7"
+      ],
+      "confidence": "medium",
+      "default": "ams",
+      "display_name": "Mathematics and statistics",
+      "evidence": "sampled",
+      "sample_n": null
+    },
+    "stem/physics-astronomy": {
+      "allowed": [
+        "aps",
+        "aip",
+        "apa-7",
+        "vancouver-nlm",
+        "harvard"
+      ],
+      "confidence": "medium",
+      "default": "aps",
+      "display_name": "Physics and astronomy",
+      "evidence": "sampled",
+      "note": "AIP Publishing accepts three reference formats depending on the journal (numeric, alphabetical and combined). IOP Publishing splits its journals between Harvard and Vancouver (its support page blocked automated reading).",
+      "sample_n": null
+    }
+  },
+  "disciplines": {
+    "business-management/accounting-finance": {
+      "area": "business-management",
+      "display_name": "Accounting and finance",
+      "id": "business-management/accounting-finance"
+    },
+    "business-management/management": {
+      "area": "business-management",
+      "display_name": "Management",
+      "id": "business-management/management"
+    },
+    "health/dentistry": {
+      "area": "health",
+      "display_name": "Dentistry",
+      "id": "health/dentistry"
+    },
+    "health/medicine": {
+      "area": "health",
+      "display_name": "Medicine",
+      "id": "health/medicine"
+    },
+    "health/nursing": {
+      "area": "health",
+      "display_name": "Nursing",
+      "id": "health/nursing"
+    },
+    "health/pharmacology": {
+      "area": "health",
+      "display_name": "Pharmacology",
+      "id": "health/pharmacology"
+    },
+    "health/public-health": {
+      "area": "health",
+      "display_name": "Public Health",
+      "id": "health/public-health"
+    },
+    "health/rehabilitation": {
+      "area": "health",
+      "display_name": "Rehabilitation",
+      "id": "health/rehabilitation"
+    },
+    "humanities/history": {
+      "area": "humanities",
+      "display_name": "History",
+      "id": "humanities/history"
+    },
+    "humanities/linguistics": {
+      "area": "humanities",
+      "display_name": "Linguistics",
+      "id": "humanities/linguistics"
+    },
+    "humanities/literature": {
+      "area": "humanities",
+      "display_name": "Literature",
+      "id": "humanities/literature"
+    },
+    "humanities/philosophy": {
+      "area": "humanities",
+      "display_name": "Philosophy",
+      "id": "humanities/philosophy"
+    },
+    "life-sciences/agronomy-veterinary": {
+      "area": "life-sciences",
+      "display_name": "Agronomy and veterinary sciences",
+      "id": "life-sciences/agronomy-veterinary"
+    },
+    "life-sciences/biology": {
+      "area": "life-sciences",
+      "display_name": "Biology",
+      "id": "life-sciences/biology"
+    },
+    "life-sciences/biotechnology": {
+      "area": "life-sciences",
+      "display_name": "Biotechnology",
+      "id": "life-sciences/biotechnology"
+    },
+    "social-sciences/communication": {
+      "area": "social-sciences",
+      "display_name": "Communication",
+      "id": "social-sciences/communication"
+    },
+    "social-sciences/economics": {
+      "area": "social-sciences",
+      "display_name": "Economics",
+      "id": "social-sciences/economics"
+    },
+    "social-sciences/education": {
+      "area": "social-sciences",
+      "display_name": "Education",
+      "id": "social-sciences/education"
+    },
+    "social-sciences/law": {
+      "area": "social-sciences",
+      "display_name": "Law",
+      "id": "social-sciences/law"
+    },
+    "social-sciences/political-science": {
+      "area": "social-sciences",
+      "display_name": "Political Science",
+      "id": "social-sciences/political-science"
+    },
+    "social-sciences/psychology": {
+      "area": "social-sciences",
+      "display_name": "Psychology",
+      "id": "social-sciences/psychology"
+    },
+    "social-sciences/sociology": {
+      "area": "social-sciences",
+      "display_name": "Sociology",
+      "id": "social-sciences/sociology"
+    },
+    "stem/chemistry": {
+      "area": "stem",
+      "display_name": "Chemistry",
+      "id": "stem/chemistry"
+    },
+    "stem/computer-science": {
+      "area": "stem",
+      "display_name": "Computer Science",
+      "id": "stem/computer-science"
+    },
+    "stem/earth-environmental": {
+      "area": "stem",
+      "display_name": "Earth and environmental sciences",
+      "id": "stem/earth-environmental"
+    },
+    "stem/engineering": {
+      "area": "stem",
+      "display_name": "Engineering",
+      "id": "stem/engineering"
+    },
+    "stem/mathematics-statistics": {
+      "area": "stem",
+      "display_name": "Mathematics and statistics",
+      "id": "stem/mathematics-statistics"
+    },
+    "stem/physics-astronomy": {
+      "area": "stem",
+      "display_name": "Physics and astronomy",
+      "id": "stem/physics-astronomy"
+    }
+  },
+  "document_types": {
+    "abstract-standalone": {
+      "display_name": "Abstract Standalone",
+      "group": "short-forms",
+      "id": "abstract-standalone"
+    },
+    "academic-essay": {
+      "display_name": "Academic Essay",
+      "group": "argumentative",
+      "id": "academic-essay"
+    },
+    "brief-report": {
+      "display_name": "Brief Report",
+      "group": "short-forms",
+      "id": "brief-report"
+    },
+    "case-report": {
+      "display_name": "Case Report",
+      "group": "clinical",
+      "id": "case-report"
+    },
+    "case-series": {
+      "display_name": "Case Series",
+      "group": "clinical",
+      "id": "case-series"
+    },
+    "commentary-perspective": {
+      "display_name": "Commentary Perspective",
+      "group": "short-forms",
+      "id": "commentary-perspective"
+    },
+    "conference-paper": {
+      "display_name": "Conference Paper",
+      "group": "technical",
+      "id": "conference-paper"
+    },
+    "letter-to-editor": {
+      "display_name": "Letter to Editor",
+      "group": "short-forms",
+      "id": "letter-to-editor"
+    },
+    "meta-analysis": {
+      "display_name": "Meta Analysis",
+      "group": "reviews",
+      "id": "meta-analysis"
+    },
+    "mixed-methods": {
+      "display_name": "Mixed Methods",
+      "group": "original-research",
+      "id": "mixed-methods"
+    },
+    "monograph": {
+      "display_name": "Monograph",
+      "group": "long-forms",
+      "id": "monograph"
+    },
+    "narrative-review": {
+      "display_name": "Narrative Review",
+      "group": "reviews",
+      "id": "narrative-review"
+    },
+    "poster": {
+      "display_name": "Poster",
+      "group": "dissemination",
+      "id": "poster"
+    },
+    "qualitative": {
+      "display_name": "Qualitative",
+      "group": "original-research",
+      "id": "qualitative"
+    },
+    "quantitative": {
+      "display_name": "Quantitative",
+      "group": "original-research",
+      "id": "quantitative"
+    },
+    "registered-report": {
+      "display_name": "Registered Report",
+      "group": "proposals",
+      "id": "registered-report"
+    },
+    "research-proposal": {
+      "display_name": "Research Proposal",
+      "group": "proposals",
+      "id": "research-proposal"
+    },
+    "scoping-review": {
+      "display_name": "Scoping Review",
+      "group": "reviews",
+      "id": "scoping-review"
+    },
+    "software-paper": {
+      "display_name": "Software Paper",
+      "group": "technical",
+      "id": "software-paper"
+    },
+    "systematic-review": {
+      "display_name": "Systematic Review",
+      "group": "reviews",
+      "id": "systematic-review"
+    },
+    "technical-report": {
+      "display_name": "Technical Report",
+      "group": "technical",
+      "id": "technical-report"
+    },
+    "thesis-by-publication": {
+      "display_name": "Thesis by Publication",
+      "group": "long-forms",
+      "id": "thesis-by-publication"
+    },
+    "thesis-doctoral": {
+      "display_name": "Thesis Doctoral",
+      "group": "long-forms",
+      "id": "thesis-doctoral"
+    },
+    "thesis-masters": {
+      "display_name": "Thesis Masters",
+      "group": "long-forms",
+      "id": "thesis-masters"
+    },
+    "thesis-undergraduate": {
+      "display_name": "Thesis Undergraduate",
+      "group": "long-forms",
+      "id": "thesis-undergraduate"
+    },
+    "trial-protocol": {
+      "display_name": "Trial Protocol",
+      "group": "clinical",
+      "id": "trial-protocol"
+    },
+    "umbrella-review": {
+      "display_name": "Umbrella Review",
+      "group": "reviews",
+      "id": "umbrella-review"
+    }
+  },
+  "invariants": [
+    {
+      "id": "INV-01",
+      "text": "reporting_guideline must belong to study_designs[study_design].reporting, or to protocol_reporting when document_type is one of protocol_document_types and protocol_reporting is not empty; otherwise deny"
+    },
+    {
+      "id": "INV-02",
+      "text": "every referenced id must exist in the manifest, except those listed in gap"
+    },
+    {
+      "id": "INV-03",
+      "text": "defaults_by_discipline covers each leaf exactly once"
+    },
+    {
+      "id": "INV-04",
+      "text": "default belongs to allowed when it is not null; variant belongs to the standard's variants"
+    },
+    {
+      "id": "INV-05",
+      "text": "no two rules have the same when and incompatible effects (deny vs require)"
+    },
+    {
+      "id": "INV-06",
+      "text": "every publisher_profile in the policy-registry exists in the manifest"
+    },
+    {
+      "id": "INV-07",
+      "text": "each reporting guideline appears in at least one study_design"
+    }
+  ],
+  "languages": {
+    "languages": [
+      "de",
+      "en",
+      "es",
+      "fr",
+      "it",
+      "pt-br"
+    ],
+    "regions": [
+      "anglosphere",
+      "francophone",
+      "iberia",
+      "latam"
+    ],
+    "variants_planned": {
+      "en": [
+        "en-US",
+        "en-GB"
+      ],
+      "es": [
+        "es-CO",
+        "es-MX",
+        "es-ES",
+        "es-AR",
+        "es-CL"
+      ]
+    }
+  },
+  "meta": {
+    "core_version": "0.3.0",
+    "enums": {
+      "ai_use_kind": [
+        "none",
+        "language_editing",
+        "generative_content",
+        "research_conduct"
+      ],
+      "effects": [
+        "deny",
+        "warn",
+        "require",
+        "recommend"
+      ],
+      "writing_assistance": [
+        "disclose",
+        "disclose_if_generative",
+        "not_required"
+      ]
+    },
+    "rfa_version": "0.1.0",
+    "schema_version": 1,
+    "snapshot_dates": {
+      "policy_registry": {
+        "max": "2026-10-24",
+        "min": "2026-10-18"
+      },
+      "standards_meta": {
+        "max": "2026-10-24",
+        "min": "2026-10-18"
+      }
+    },
+    "source_hashes": {
+      "rfa-core/01-standards/citation-styles/acm/_meta.yaml": "82c901a36878e7613ce903fdcf4659636ec5e0376fec04c639d7a7ae5cf2d72a",
+      "rfa-core/01-standards/citation-styles/acs/_meta.yaml": "a6036562bb57189af93c9c5bc1e306e094a54ec0fdcee4ab03670eae2ede7fce",
+      "rfa-core/01-standards/citation-styles/aip/_meta.yaml": "0724fa45faf12b8a30a31166d7773a12b5eb4dd3175c70506bfebcb85cfba384",
+      "rfa-core/01-standards/citation-styles/ama-11/_meta.yaml": "d47a45dd50b92c88d6d2e4569b0412408baefd4941cd942d3d691cf4cb268bc5",
+      "rfa-core/01-standards/citation-styles/ams/_meta.yaml": "1690a7660d88a578631eb23ab554373ce368f07a6021d6079a1b212fd4e87902",
+      "rfa-core/01-standards/citation-styles/apa-7/_meta.yaml": "3907520966d26a4df27cc490c1659eefccdc284860d97416d9378468ffc0150f",
+      "rfa-core/01-standards/citation-styles/aps/_meta.yaml": "de4ec03bb98c33fdf0b7ef98d26cef0307098fa7e535f6b7ab8b126c8fe4aa8e",
+      "rfa-core/01-standards/citation-styles/apsa/_meta.yaml": "8fc17e2372d454184e44c2dcdbcb237612d1eb93822f84268cb119e77fec6ecd",
+      "rfa-core/01-standards/citation-styles/asa/_meta.yaml": "5530b7478c5f0141cb049e3ed4b27603778f3ecbcaea1f99fd13c019b7adb87c",
+      "rfa-core/01-standards/citation-styles/bluebook/_meta.yaml": "92a49dfcae4fb42df8bdaf3898c015265f6798c7f1a33bf6cd8fabaeffb0cb1e",
+      "rfa-core/01-standards/citation-styles/chicago-18/_meta.yaml": "c2ab7b19ae3d520dbceb40b77fd18777bb0ed2c2fa44cda39babaf067525ba33",
+      "rfa-core/01-standards/citation-styles/cse/_meta.yaml": "007c1522cda114e4da762e0d1cdb2a91d556f04e5b614d0ab4f631c7f2a7cddf",
+      "rfa-core/01-standards/citation-styles/harvard/_meta.yaml": "3f3710c4fb7c3c738bf38a3335aee788141699c1721dc876b82dd80e9565f649",
+      "rfa-core/01-standards/citation-styles/ieee/_meta.yaml": "0b4433f4bb890c97f7a491e4a1585269976090a33f49bf4c5a91e7bf41b9bd6b",
+      "rfa-core/01-standards/citation-styles/iso-690/_meta.yaml": "895dc0c16a616c5882bf100addbd753a722f36cc464e045561ea7ef5d3fe7c19",
+      "rfa-core/01-standards/citation-styles/mla-9/_meta.yaml": "f39bab1a8c050cf851c180e49b907ee9e463071fd940642f1bfbb69a4c04f731",
+      "rfa-core/01-standards/citation-styles/oscola/_meta.yaml": "13b8c8b993a89446b1210b666527c8e7fb2404179a657a3b69ad6dcd48d66d6a",
+      "rfa-core/01-standards/citation-styles/regional/abnt-brasil/_meta.yaml": "8a6a919487c4299cd685deae31a107aded382c0436faaa490bfc880a46357c45",
+      "rfa-core/01-standards/citation-styles/regional/colombia-legal-hybrid/_meta.yaml": "b086047b9d3c5854152fed381149c475c472b980ced5d3771222c50ec327ed7f",
+      "rfa-core/01-standards/citation-styles/regional/icontec-colombia/_meta.yaml": "fb9c032b0384e70a9169caa9c1505491db604cf12142c3c17542cb42a9ba8953",
+      "rfa-core/01-standards/citation-styles/vancouver-nlm/_meta.yaml": "61ec83b641735e89d02e04ac01f90b15eb6358b9290c20afcf6830fa2895008e",
+      "rfa-core/01-standards/reporting-guidelines/licenses.yaml": "77af3ba08c9b95eb6ccaa004a2fee4273565d4da919c340ff8cd99a03dc9f2dd",
+      "rfa-core/06-ai-disclosure/policy-registry.yaml": "0d37ed28f037fe083ad8db81ff30e1ce8bb58ef036fecfdeaa9f4367681ba9b2",
+      "rfa-core/compat-matrix.yaml": "f3ddc2369d14606b938642aed5d51a97bf55e23073fdf647366839dfecb1c17d",
+      "rfa-core/manifest.yaml": "ed1ae4035479bbd32791a990930af252685842eb01c5d818aa853b98d2e542dd",
+      "rfa-core/precedence.yaml": "2cc6074d246006a70361c837e6613870c950ad0cf41915fcb01613cba9a28e84",
+      "rfa-skill/references/csl/MANIFEST.yaml": "05dc83cd08e518781cbf4f22b93b8448fed7feb251e786f875231c67134d2d21",
+      "rfa-skill/references/scripts/_common.py": "789e4484e5779bc7c48f9ac9d5578c06d142bb3d3e9c0755d2cb580715cc0e3a",
+      "rfa-skill/references/scripts/format_reference.py": "8bb028b5ae49edc770adde3acce79dfcb2842167ecda556b71be91c72fd335c0"
+    }
+  },
+  "precedence": {
+    "attribute_overrides": {
+      "ai_disclosure": [
+        "publisher_profile",
+        "institution_override",
+        "project_policy"
+      ],
+      "lexicon": [
+        "discipline",
+        "language_region"
+      ],
+      "reference_format": [
+        "institution_override",
+        "publisher_profile",
+        "standard",
+        "discipline_default"
+      ],
+      "register_voice": [
+        "discipline",
+        "language_region",
+        "document_type"
+      ],
+      "reporting_items": [
+        "reporting_guideline",
+        "document_type",
+        "discipline"
+      ],
+      "section_structure": [
+        "document_type",
+        "discipline",
+        "language_region"
+      ],
+      "typography_locale": [
+        "language_region",
+        "standard"
+      ]
+    },
+    "conflict_policy": {
+      "same_priority_contradiction": "lint_error",
+      "stricter_wins_for": [
+        "reporting_items",
+        "ai_disclosure"
+      ],
+      "unresolved": "stop_and_ask"
+    },
+    "default_order": [
+      "discipline",
+      "document_type",
+      "standard",
+      "language_region"
+    ],
+    "notes": "Linear general order with per-attribute overrides; a journal or institution requirement wins over the discipline's default value.",
+    "precedence_version": 2,
+    "provenance": {
+      "authored_by": "claude-orchestrator",
+      "review_status": "pending_human_review"
+    },
+    "status": "draft"
+  },
+  "protocol_document_types": [
+    "trial-protocol",
+    "registered-report",
+    "research-proposal"
+  ],
+  "reporting_guidelines": {
+    "agree-ii": {
+      "id": "agree-ii",
+      "license_claimed": "Copyright AGREE Enterprise; reproduction for non-commercial academic use with a copyright notice",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://www.agreetrust.org/resource-centre/agree-ii/",
+      "redistribution_claimed": "conditional",
+      "study_designs": [
+        "clinical-practice-guideline-appraisal"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "AGREE II",
+      "year": 2010
+    },
+    "apa-jars": {
+      "id": "apa-jars",
+      "license_claimed": "Copyright American Psychological Association; all rights reserved",
+      "needs_review": true,
+      "note": "Link or brief paraphrase only.",
+      "official_url": "https://apastyle.apa.org/jars",
+      "redistribution_claimed": "no",
+      "study_designs": [
+        "psych-social-empirical"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "APA JARS (quantitative, qualitative, and mixed)",
+      "year": 2018
+    },
+    "arrive-2": {
+      "id": "arrive-2",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000410",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "preclinical-animal"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "ARRIVE 2.0",
+      "year": 2020
+    },
+    "care": {
+      "id": "care",
+      "license_claimed": "Non-commercial use with attribution (CC BY-NC-ND or the authors' copyright, depending on the version)",
+      "needs_review": true,
+      "note": "No derivative works and no commercial purposes, or link to care-statement.org.",
+      "official_url": "https://www.equator-network.org/reporting-guidelines/care/",
+      "redistribution_claimed": "conditional",
+      "study_designs": [
+        "case-report"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "CARE",
+      "year": 2013
+    },
+    "cheers-2022": {
+      "id": "cheers-2022",
+      "license_claimed": "CC BY 4.0 in The BMJ; the co-publication in Value in Health is licensed by Elsevier/ISPOR",
+      "needs_review": true,
+      "note": "Only The BMJ version.",
+      "official_url": "https://www.bmj.com/content/376/bmj-2021-067975",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "economic-evaluation"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "CHEERS 2022",
+      "year": 2022
+    },
+    "consort-2025": {
+      "id": "consort-2025",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": "Replaces CONSORT 2010.",
+      "official_url": "https://www.bmj.com/content/389/bmj-2024-081123",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "rct"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "CONSORT 2025",
+      "year": 2025
+    },
+    "coreq": {
+      "id": "coreq",
+      "license_claimed": "Copyright 2007 ISQua and Oxford University Press",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://academic.oup.com/intqhc/article/19/6/349/1791966",
+      "redistribution_claimed": "no",
+      "study_designs": [
+        "qualitative-interview-focus-group"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "COREQ",
+      "year": 2007
+    },
+    "entreq": {
+      "id": "entreq",
+      "license_claimed": "CC BY 2.0",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/1471-2288-12-181",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "qualitative-synthesis"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "ENTREQ",
+      "year": 2012
+    },
+    "moose": {
+      "id": "moose",
+      "license_claimed": "Copyright 2000 American Medical Association (JAMA 2000;283:2008-2012)",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://www.equator-network.org/reporting-guidelines/meta-analysis-of-observational-studies-in-epidemiology-a-proposal-for-reporting-meta-analysis-of-observational-studies-in-epidemiology-moose-group/",
+      "redistribution_claimed": "no",
+      "study_designs": [
+        "meta-analysis-observational"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "MOOSE",
+      "year": 2000
+    },
+    "prisma-2020": {
+      "id": "prisma-2020",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": "Statement published in 2021.",
+      "official_url": "https://www.bmj.com/content/372/bmj.n71",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "meta-analysis-observational",
+        "scoping-review",
+        "systematic-review"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "PRISMA 2020",
+      "year": 2021
+    },
+    "prisma-p": {
+      "id": "prisma-p",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://www.bmj.com/content/350/bmj.g7647",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "systematic-review"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "PRISMA-P 2015",
+      "year": 2015
+    },
+    "process-2023": {
+      "id": "process-2023",
+      "license_claimed": "CC BY 4.0 or CC BY-NC-ND 4.0 depending on the edition in International Journal of Surgery",
+      "needs_review": true,
+      "note": "The research pass reported a later update (PROCESS 2025); verify the exact license of the issue.",
+      "official_url": "https://www.equator-network.org/reporting-guidelines/preferred-reporting-of-case-series-in-surgery-process/",
+      "redistribution_claimed": "conditional",
+      "study_designs": [
+        "case-series-surgical"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "PROCESS 2023",
+      "year": 2023
+    },
+    "record": {
+      "id": "record",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1001885",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "routine-data-observational"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "RECORD",
+      "year": 2015
+    },
+    "sanra": {
+      "id": "sanra",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": "Assessment scale, not a formal reporting guideline.",
+      "official_url": "https://researchintegrityjournal.biomedcentral.com/articles/10.1186/s41073-019-0064-8",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "narrative-review"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "SANRA",
+      "year": 2019
+    },
+    "spirit-2025": {
+      "id": "spirit-2025",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": "Replaces SPIRIT 2013.",
+      "official_url": "https://www.bmj.com/content/389/bmj-2024-081477",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "rct"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "SPIRIT 2025",
+      "year": 2025
+    },
+    "squire-2": {
+      "id": "squire-2",
+      "license_claimed": "CC BY-NC 4.0",
+      "needs_review": true,
+      "note": "Non-commercial uses only. Corrects the earlier claim that it was CC BY 4.0.",
+      "official_url": "https://qualitysafety.bmj.com/content/25/12/986",
+      "redistribution_claimed": "conditional",
+      "study_designs": [
+        "quality-improvement"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "SQUIRE 2.0",
+      "year": 2016
+    },
+    "srqr": {
+      "id": "srqr",
+      "license_claimed": "Copyright 2014 Association of American Medical Colleges",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://www.equator-network.org/reporting-guidelines/srqr/",
+      "redistribution_claimed": "no",
+      "study_designs": [
+        "qualitative-general"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "SRQR",
+      "year": 2014
+    },
+    "stard-2015": {
+      "id": "stard-2015",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://www.bmj.com/content/351/bmj.h5527",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "diagnostic-accuracy"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "STARD 2015",
+      "year": 2015
+    },
+    "strobe": {
+      "id": "strobe",
+      "license_claimed": "CC BY (PLOS Medicine edition); the co-publications carry publisher copyright",
+      "needs_review": true,
+      "note": "Only the PLOS Medicine or strobe-statement.org version.",
+      "official_url": "https://journals.plos.org/plosmedicine/article/file?id=10.1371/journal.pmed.0040296&type=printable",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "case-control",
+        "cohort",
+        "cross-sectional",
+        "routine-data-observational"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "STROBE",
+      "year": 2007
+    },
+    "trend": {
+      "id": "trend",
+      "license_claimed": "Checklist hosted by the CDC, US federal public domain, with attribution",
+      "needs_review": true,
+      "note": null,
+      "official_url": "https://www.equator-network.org/reporting-guidelines/improving-the-reporting-quality-of-nonrandomized-evaluations-of-behavioral-and-public-health-interventions-the-trend-statement/",
+      "redistribution_claimed": "conditional",
+      "study_designs": [
+        "non-randomized-intervention"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "TREND",
+      "year": 2004
+    },
+    "tripod-family": {
+      "id": "tripod-family",
+      "license_claimed": "CC BY 4.0",
+      "needs_review": true,
+      "note": "TRIPOD+AI replaces TRIPOD 2015.",
+      "official_url": "https://www.bmj.com/content/385/bmj-2023-078378",
+      "redistribution_claimed": "yes",
+      "study_designs": [
+        "prediction-model"
+      ],
+      "verified_on": "2026-10-19",
+      "version": "TRIPOD+AI (2024) and TRIPOD-LLM (2025)",
+      "year": 2024
+    }
+  },
+  "rules": [
+    {
+      "confidence": "high",
+      "effect": "require",
+      "id": "R-01",
+      "reason": "Trial protocols are reported with SPIRIT 2025.",
+      "then": {
+        "reporting_guideline": "spirit-2025",
+        "study_design": "rct"
+      },
+      "when": {
+        "document_type": "trial-protocol"
+      }
+    },
+    {
+      "confidence": "high",
+      "effect": "require",
+      "id": "R-02",
+      "reason": "Systematic reviews follow PRISMA 2020.",
+      "then": {
+        "reporting_guideline": "prisma-2020",
+        "study_design": "systematic-review"
+      },
+      "when": {
+        "document_type": "systematic-review"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "require",
+      "id": "R-03",
+      "reason": "Use the PRISMA-ScR extension; verify that it is current.",
+      "then": {
+        "reporting_guideline": "prisma-2020",
+        "study_design": "scoping-review"
+      },
+      "when": {
+        "document_type": "scoping-review"
+      }
+    },
+    {
+      "confidence": "high",
+      "effect": "require",
+      "id": "R-04",
+      "reason": "Meta-analyses with PRISMA 2020; add MOOSE if the studies are observational.",
+      "then": {
+        "reporting_guideline": "prisma-2020"
+      },
+      "when": {
+        "document_type": "meta-analysis"
+      }
+    },
+    {
+      "confidence": "high",
+      "effect": "require",
+      "id": "R-05",
+      "reason": "Case reports with CARE.",
+      "then": {
+        "reporting_guideline": "care",
+        "study_design": "case-report"
+      },
+      "when": {
+        "document_type": "case-report"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "recommend",
+      "id": "R-06",
+      "reason": "COREQ only for interviews and focus groups; SRQR is general.",
+      "then": {
+        "reporting_guideline_any_of": [
+          "coreq",
+          "srqr"
+        ]
+      },
+      "when": {
+        "document_type": "qualitative"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "recommend",
+      "id": "R-07",
+      "reason": "SANRA is a quality scale for narrative reviews, not a formal reporting guideline.",
+      "then": {
+        "reporting_guideline": "sanra"
+      },
+      "when": {
+        "document_type": "narrative-review"
+      }
+    },
+    {
+      "confidence": "low",
+      "effect": "recommend",
+      "id": "R-08",
+      "reason": "PROCESS is specific to surgery; in other areas descriptive STROBE is adapted.",
+      "then": {
+        "reporting_guideline_any_of": [
+          "process-2023",
+          "strobe"
+        ]
+      },
+      "when": {
+        "document_type": "case-series"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "recommend",
+      "id": "R-09",
+      "reason": "APA JARS covers quantitative, qualitative and mixed-methods research in the social sciences.",
+      "then": {
+        "reporting_guideline": "apa-jars"
+      },
+      "when": {
+        "discipline_area": "social-sciences",
+        "document_type_group": "original-research"
+      }
+    },
+    {
+      "confidence": "high",
+      "effect": "require",
+      "id": "R-10",
+      "reason": "All reviewed policies ask authors to describe in the methods the use of AI to conduct the research.",
+      "then": {
+        "resolve_from": "rfa-core/06-ai-disclosure/policy-registry.yaml",
+        "section": "methods-ai-description"
+      },
+      "when": {
+        "ai_use_kind": "research_conduct"
+      }
+    },
+    {
+      "confidence": "high",
+      "effect": "require",
+      "id": "R-11",
+      "reason": "All reviewed policies require disclosure of generative use; the location and wording depend on the organization.",
+      "then": {
+        "resolve_from": "rfa-core/06-ai-disclosure/policy-registry.yaml",
+        "section": "ai-disclosure-statement"
+      },
+      "when": {
+        "ai_use_kind": "generative_content"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "recommend",
+      "id": "R-12",
+      "reason": "Varies by organization: ICMJE, COPE and most publishers ask for disclosure. ACM, Springer Nature, Elsevier and SAGE exempt basic spelling and grammar correction, and Springer Nature and SAGE also exempt assistive use.",
+      "then": {
+        "resolve_from": "rfa-core/06-ai-disclosure/policy-registry.yaml",
+        "section": "ai-disclosure-statement"
+      },
+      "when": {
+        "ai_use_kind": "language_editing"
+      }
+    },
+    {
+      "confidence": "high",
+      "effect": "deny",
+      "id": "R-13",
+      "reason": "No reviewed organization accepts an AI tool as an author.",
+      "when": {
+        "ai_listed_as_author": true
+      }
+    },
+    {
+      "confidence": "high",
+      "effect": "recommend",
+      "id": "R-14",
+      "reason": "Many journals require it.",
+      "then": {
+        "section": "data-availability-statement"
+      },
+      "when": {
+        "document_type_group": "original-research"
+      }
+    },
+    {
+      "confidence": "high",
+      "effect": "recommend",
+      "id": "R-15",
+      "reason": "Statement of ethics approval and consent.",
+      "then": {
+        "section": "ethics-statements"
+      },
+      "when": {
+        "document_type_group": [
+          "original-research",
+          "clinical"
+        ]
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "recommend",
+      "id": "R-16",
+      "reason": "Institutions usually impose their own standard for theses.",
+      "then": {
+        "check_first": "institutional-overrides"
+      },
+      "when": {
+        "document_type_group": "long-forms"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "warn",
+      "id": "R-17",
+      "reason": "The humanities convention is notes or author-date.",
+      "when": {
+        "discipline_area": "humanities",
+        "document_type": "academic-essay",
+        "standard": [
+          "ieee",
+          "vancouver-nlm",
+          "ama-11",
+          "aps",
+          "aip",
+          "acm"
+        ]
+      }
+    },
+    {
+      "confidence": "low",
+      "effect": "warn",
+      "id": "R-18",
+      "reason": "Footnotes do not fit short formats.",
+      "when": {
+        "document_type": [
+          "abstract-standalone",
+          "poster"
+        ],
+        "standard": "chicago-18",
+        "standard_variant": "notes-bibliography"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "warn",
+      "id": "R-19",
+      "reason": "Colombian standard designed for Spanish.",
+      "when": {
+        "language_not": "es",
+        "standard": "icontec-colombia"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "warn",
+      "id": "R-20",
+      "reason": "Brazilian standard designed for Portuguese.",
+      "when": {
+        "language_not": "pt-br",
+        "standard": "abnt-brasil"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "recommend",
+      "id": "R-21",
+      "reason": "APA 7 is the most frequent norm in Colombian thesis guides sampled by two research passes, but several universities set the norm per faculty and some require ICONTEC (NTC 1486); check the institution's own guide.",
+      "then": {
+        "alternative": "icontec-colombia",
+        "check_first": "institutional-overrides",
+        "default_standard": "apa-7"
+      },
+      "when": {
+        "document_type_group": "long-forms",
+        "language_variant": "es-CO"
+      }
+    },
+    {
+      "confidence": "low",
+      "effect": "recommend",
+      "id": "R-22",
+      "reason": "There is no official legal citation standard; a hybrid practice based on an editorial manual and university guides is documented.",
+      "then": {
+        "check_first": "institutional-overrides",
+        "standard": "colombia-legal-hybrid"
+      },
+      "when": {
+        "discipline": "social-sciences/law",
+        "language_variant": "es-CO"
+      }
+    },
+    {
+      "confidence": "medium",
+      "effect": "warn",
+      "id": "R-23",
+      "reason": "Reporting guidelines do not apply to these formats.",
+      "when": {
+        "document_type": [
+          "academic-essay",
+          "monograph",
+          "commentary-perspective",
+          "letter-to-editor"
+        ],
+        "reporting_guideline": "any"
+      }
+    }
+  ],
+  "standards": {
+    "abnt-brasil": {
+      "additional_sources": [
+        "https://biblioteca.ufes.br/pt-br/normas-abnt",
+        "https://www.aguia.usp.br/noticias/nova-norma-abnt-nbr-6023-2025-informacao-e-documentacao-referencias-elaboracao/",
+        "https://www.ccta.ufpb.br/bset/contents/documentos/abnt-nbr-14724_2024-trabalhos-academicos-apresentacao.pdf"
+      ],
+      "csl_style_keys": [],
+      "display_name": "ABNT NBR 6023, 10520 and 14724",
+      "edition": "NBR 6023:2025 (3rd ed., 22-Sep-2025; corrected version 2026); NBR 10520:2023 (2nd ed., 19-Jul-2023); NBR 14724:2024 (4th ed., 11-Dec-2024; in force since 11-Jan-2025)",
+      "family": "variants",
+      "id": "abnt-brasil",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Confirmed by three independent university sources; the official ABNT catalog (paid) was not opened.",
+      "official_source": null,
+      "variants": [
+        "author-date",
+        "numeric"
+      ],
+      "verification": "secondary_sources_only",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2025
+    },
+    "acm": {
+      "additional_sources": [],
+      "csl_style_keys": [],
+      "display_name": "ACM Reference Format",
+      "edition": "ACM Reference Format (web, updated 11-Jul-2023)",
+      "family": "variants",
+      "id": "acm",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Numeric, with an author-year variant depending on the conference.",
+      "official_source": "https://www.acm.org/publications/authors/reference-formatting",
+      "variants": [
+        "numeric",
+        "author-year"
+      ],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "year": 2023
+    },
+    "acs": {
+      "additional_sources": [],
+      "csl_style_keys": [
+        "acs"
+      ],
+      "display_name": "ACS Guide to Scholarly Communication",
+      "edition": "ACS Guide to Scholarly Communication (continuous digital edition; in 2020 it replaced the ACS Style Guide, 3rd ed., 2006)",
+      "family": "variants",
+      "id": "acs",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Three citation systems: superscript number, italic number in parentheses, and author-year.",
+      "official_source": "https://pubs.acs.org/page/jacsat/submission/authors.html",
+      "variants": [
+        "superscript-numeric",
+        "italic-numeric",
+        "author-date"
+      ],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": null
+    },
+    "aip": {
+      "additional_sources": [],
+      "csl_style_keys": [],
+      "display_name": "AIP Publishing style",
+      "edition": "AIP Publishing Author Instructions (online)",
+      "family": "variants",
+      "id": "aip",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Accepts three reference formats: numeric, alphabetical (author-year with title) and combined. The AIP Style Manual (4th ed., 1990) is no longer the reference.",
+      "official_source": "https://publishing.aip.org/resources/researchers/author-instructions/",
+      "variants": [
+        "numeric",
+        "alphabetical",
+        "numeric-alphabetical"
+      ],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": null
+    },
+    "ama-11": {
+      "additional_sources": [],
+      "csl_style_keys": [
+        "ama-11"
+      ],
+      "display_name": "AMA Manual of Style, 11th edition",
+      "edition": "11th",
+      "family": "numeric",
+      "id": "ama-11",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Numeric with superscripts; a system related to Vancouver with formatting differences.",
+      "official_source": "https://academic.oup.com/amamanualofstyle/pages/about",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "year": 2020
+    },
+    "ams": {
+      "additional_sources": [],
+      "csl_style_keys": [],
+      "display_name": "AMS Style Guide",
+      "edition": "AMS Style Guide: Journals (October 2017 revision)",
+      "family": "variants",
+      "id": "ams",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Accepts numeric or label references.",
+      "official_source": "https://www.ams.org/arc/styleguide/index.html",
+      "variants": [
+        "label",
+        "numeric"
+      ],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "year": 2017
+    },
+    "apa-7": {
+      "additional_sources": [],
+      "csl_style_keys": [
+        "apa-7"
+      ],
+      "display_name": "APA Publication Manual, 7th edition",
+      "edition": "7th",
+      "family": "author-date",
+      "id": "apa-7",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Searches returned SEO pages announcing an 8th edition; no official source announces one. APA 7 remains current.",
+      "official_source": "https://apastyle.apa.org/products/publication-manual-7th-edition",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "orchestrator_search",
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2020
+    },
+    "aps": {
+      "additional_sources": [],
+      "csl_style_keys": [],
+      "display_name": "APS (Physical Review) style",
+      "edition": "APS Physical Review Style Guide",
+      "family": "numeric",
+      "id": "aps",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Numeric, by order of appearance.",
+      "official_source": "https://journals.aps.org/authors/references-physical-review-physical-review-letters",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "year": null
+    },
+    "apsa": {
+      "additional_sources": [],
+      "csl_style_keys": [],
+      "display_name": "APSA Style Manual",
+      "edition": "APSA Style Manual (2018 revision, 2023 update)",
+      "family": "author-date",
+      "id": "apsa",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Author-date, based on Chicago.",
+      "official_source": "https://connect.apsanet.org/stylemanual/sample-page/about/",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "year": 2018
+    },
+    "asa": {
+      "additional_sources": [
+        "https://www.asanet.org/news_item/new-edition-asa-style-guide/"
+      ],
+      "csl_style_keys": [],
+      "display_name": "ASA Style Guide",
+      "edition": "7th (June 2022)",
+      "family": "author-date",
+      "id": "asa",
+      "kind": null,
+      "needs_review": false,
+      "notes": "The asanet.org guide page links to the seventh edition (June 2022); an older news item on asanet.org still announces the sixth.",
+      "official_source": "https://www.asanet.org/publications/journals/asa-style-guide/",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-24",
+      "year": 2022
+    },
+    "bluebook": {
+      "additional_sources": [
+        "https://guides.lib.uchicago.edu/bluebook",
+        "https://guides.ll.georgetown.edu/bluebook"
+      ],
+      "csl_style_keys": [],
+      "display_name": "The Bluebook, 22nd edition",
+      "edition": "22nd (published in late May 2025)",
+      "family": "notes",
+      "id": "bluebook",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Compiled by the law reviews of Columbia, Harvard, Penn and Yale; includes a rule on AI (18.3).",
+      "official_source": "https://www.legalbluebook.com/",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2025
+    },
+    "chicago-18": {
+      "additional_sources": [
+        "https://cmosshoptalk.com/2024/08/15/cmos-18-is-now-online/"
+      ],
+      "csl_style_keys": [
+        "chicago-18:author-date",
+        "chicago-18:notes-bibliography"
+      ],
+      "display_name": "The Chicago Manual of Style, 18th edition",
+      "edition": "18th",
+      "family": "variants",
+      "id": "chicago-18",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Published in September 2024. The 17th remains accessible on CMOS Online during the life of the 18th.",
+      "official_source": "https://www.chicagomanualofstyle.org/help-tools/what-s-new.html",
+      "variants": [
+        "notes-bibliography",
+        "author-date"
+      ],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2024
+    },
+    "colombia-legal-hybrid": {
+      "additional_sources": [
+        "https://revistas.uexternado.edu.co/ManualEMERCA.pdf"
+      ],
+      "csl_style_keys": [],
+      "display_name": "Colombian legal citation practice (not an official standard)",
+      "edition": "Documented practice without an official standard: APA 7 with an adaptation of the Bluebook, or Chicago notes plus the Bluebook",
+      "family": null,
+      "id": "colombia-legal-hybrid",
+      "kind": "regional-practice",
+      "needs_review": true,
+      "notes": "Based on an editorial manual and university guides; not an official standard.",
+      "official_source": null,
+      "variants": [],
+      "verification": "secondary_sources_only",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "year": 2023
+    },
+    "cse": {
+      "additional_sources": [
+        "https://csemanual.org/"
+      ],
+      "csl_style_keys": [
+        "cse:citation-name",
+        "cse:citation-sequence",
+        "cse:name-year"
+      ],
+      "display_name": "CSE Manual, 9th edition",
+      "edition": "9th (The CSE Manual)",
+      "family": "variants",
+      "id": "cse",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Three systems: citation-sequence, citation-name and name-year.",
+      "official_source": "https://www.councilscienceeditors.org/cse-manual",
+      "variants": [
+        "citation-sequence",
+        "citation-name",
+        "name-year"
+      ],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "orchestrator_search",
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2024
+    },
+    "harvard": {
+      "additional_sources": [],
+      "csl_style_keys": [],
+      "display_name": "Harvard (institution-specific variants)",
+      "edition": "No single standard; main variant Cite Them Right (13th ed., 26-Jun-2025)",
+      "family": "author-date",
+      "id": "harvard",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Institutional and national variants. The URL of the publisher's product page was corrected.",
+      "official_source": "https://www.bloomsbury.com/uk/cite-them-right-9781350934252/",
+      "variants": [],
+      "verification": "publisher_page_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2025
+    },
+    "icontec-colombia": {
+      "additional_sources": [
+        "https://tienda.icontec.org/gp-referencias-documentales-para-fuentes-de-informacion-electronicas-ntc4490-1998.html",
+        "https://www.uninorte.edu.co/documents/14594000/24221923/Guia-Normas-Icontec.pdf",
+        "https://pascualbravo.edu.co/wp-content/uploads/2024/12/ICONTEC.pdf"
+      ],
+      "csl_style_keys": [],
+      "display_name": "ICONTEC NTC 1486:2022",
+      "edition": "NTC 1486:2022 (8th update; reapproved on 2024-12-04)",
+      "family": null,
+      "id": "icontec-colombia",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Unifies NTC 1486:2018 (7th update) and NTC 6166:2016. NTC 6166:2016 had annulled and replaced NTC 5613:2008 and NTC 4490:1998.",
+      "official_source": "https://tienda.icontec.org/gp-documentacion-presentacion-de-trabajos-academicos-y-referencias-bibliograficas-ntc1486-2022.html",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent",
+        "orchestrator_search"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2022
+    },
+    "ieee": {
+      "additional_sources": [
+        "https://open.ieee.org/author-guidelines-for-artificial-intelligence-ai-generated-text/"
+      ],
+      "csl_style_keys": [
+        "ieee"
+      ],
+      "display_name": "IEEE Reference Guide",
+      "edition": "IEEE Editorial Style Manual for Authors and IEEE Reference Guide (online edition 2024/2025)",
+      "family": "numeric",
+      "id": "ieee",
+      "kind": null,
+      "needs_review": true,
+      "notes": "The official page confirms that it is current, but the exact version and date of the Reference Guide remain unspecified. The skill's CSL implements version 11.29.2023.",
+      "official_source": "https://journals.ieeeauthorcenter.ieee.org/create-your-ieee-journal-article/create-the-text-of-your-article/ieee-editorial-style-manual/",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2025
+    },
+    "institutional-overrides": {
+      "additional_sources": [],
+      "csl_style_keys": [],
+      "display_name": "Institution-specific rules",
+      "edition": null,
+      "family": null,
+      "id": "institutional-overrides",
+      "kind": "override",
+      "needs_review": null,
+      "notes": null,
+      "official_source": null,
+      "variants": [],
+      "verification": null,
+      "verified_by": null,
+      "verified_on": null,
+      "year": null
+    },
+    "iso-690": {
+      "additional_sources": [
+        "https://www.dinmedia.de/en/standard/iso-690/339970827"
+      ],
+      "csl_style_keys": [],
+      "display_name": "ISO 690:2021",
+      "edition": "4th (ISO 690:2021, June 2021)",
+      "family": "variants",
+      "id": "iso-690",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Verified in the catalogs of UNE and DIN Media, ISO member bodies; the iso.org page blocked automated reading. Cancels and replaces ISO 690:2010.",
+      "official_source": "https://www.une.org/encuentra-tu-norma/busca-tu-norma/norma?c=N0072646",
+      "variants": [
+        "name-date",
+        "numeric",
+        "running-notes"
+      ],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2021
+    },
+    "mla-9": {
+      "additional_sources": [],
+      "csl_style_keys": [
+        "mla-9"
+      ],
+      "display_name": "MLA Handbook, 9th edition",
+      "edition": "9th",
+      "family": "author-page",
+      "id": "mla-9",
+      "kind": null,
+      "needs_review": false,
+      "notes": "A third-party source consulted by the maintainers agrees: 9th current, no 10th.",
+      "official_source": "https://style.mla.org/mla-handbook-ninth-edition/",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-18",
+      "year": 2021
+    },
+    "oscola": {
+      "additional_sources": [
+        "https://www.law.ox.ac.uk/sites/default/files/2026-03/OSCOLA%205.pdf"
+      ],
+      "csl_style_keys": [],
+      "display_name": "OSCOLA, 5th edition",
+      "edition": "5th (official PDF published online in March 2026; includes rule 3.7.13 on generative AI)",
+      "family": "notes",
+      "id": "oscola",
+      "kind": null,
+      "needs_review": false,
+      "notes": "Corrects the earlier claim that the 5th edition was from 2024. Keeps legacy support for the 4th (2012).",
+      "official_source": "https://www.law.ox.ac.uk/oscola",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": null
+    },
+    "vancouver-nlm": {
+      "additional_sources": [
+        "https://www.nlm.nih.gov/bsd/uniform_requirements.html",
+        "https://www.ncbi.nlm.nih.gov/books/NBK7256/"
+      ],
+      "csl_style_keys": [
+        "vancouver-nlm"
+      ],
+      "display_name": "Vancouver (ICMJE / NLM Citing Medicine)",
+      "edition": "ICMJE Recommendations (January 2026) + NLM Citing Medicine (2nd ed.)",
+      "family": "numeric",
+      "id": "vancouver-nlm",
+      "kind": null,
+      "needs_review": false,
+      "notes": "ICMJE refers to Citing Medicine for formatting details. The January 2026 update added a Section V on AI.",
+      "official_source": "https://www.icmje.org/news-and-editorials/updated_recommendations_jan2026.html",
+      "variants": [],
+      "verification": "official_source_seen",
+      "verified_by": [
+        "orchestrator_search",
+        "research_agent"
+      ],
+      "verified_on": "2026-10-19",
+      "year": 2026
+    }
+  },
+  "study_designs": {
+    "case-control": {
+      "reporting": [
+        "strobe"
+      ]
+    },
+    "case-report": {
+      "reporting": [
+        "care"
+      ]
+    },
+    "case-series-surgical": {
+      "reporting": [
+        "process-2023"
+      ]
+    },
+    "clinical-practice-guideline-appraisal": {
+      "note": "Instrument for appraising clinical practice guidelines.",
+      "reporting": [
+        "agree-ii"
+      ]
+    },
+    "cohort": {
+      "reporting": [
+        "strobe"
+      ]
+    },
+    "cross-sectional": {
+      "reporting": [
+        "strobe"
+      ]
+    },
+    "diagnostic-accuracy": {
+      "reporting": [
+        "stard-2015"
+      ]
+    },
+    "economic-evaluation": {
+      "reporting": [
+        "cheers-2022"
+      ]
+    },
+    "meta-analysis-observational": {
+      "reporting": [
+        "prisma-2020",
+        "moose"
+      ]
+    },
+    "narrative-review": {
+      "note": "SANRA is a quality scale, not a formal reporting guideline.",
+      "reporting": [
+        "sanra"
+      ]
+    },
+    "no-reporting-guideline": {
+      "reporting": []
+    },
+    "non-randomized-intervention": {
+      "reporting": [
+        "trend"
+      ]
+    },
+    "preclinical-animal": {
+      "reporting": [
+        "arrive-2"
+      ]
+    },
+    "prediction-model": {
+      "note": "TRIPOD+AI (2024) replaces TRIPOD 2015; TRIPOD-LLM applies to language models.",
+      "reporting": [
+        "tripod-family"
+      ]
+    },
+    "psych-social-empirical": {
+      "reporting": [
+        "apa-jars"
+      ]
+    },
+    "qualitative-general": {
+      "reporting": [
+        "srqr"
+      ]
+    },
+    "qualitative-interview-focus-group": {
+      "reporting": [
+        "coreq"
+      ]
+    },
+    "qualitative-synthesis": {
+      "reporting": [
+        "entreq"
+      ]
+    },
+    "quality-improvement": {
+      "reporting": [
+        "squire-2"
+      ]
+    },
+    "rct": {
+      "protocol_reporting": [
+        "spirit-2025"
+      ],
+      "reporting": [
+        "consort-2025"
+      ]
+    },
+    "routine-data-observational": {
+      "reporting": [
+        "strobe",
+        "record"
+      ]
+    },
+    "scoping-review": {
+      "note": "Use the PRISMA-ScR extension.",
+      "reporting": [
+        "prisma-2020"
+      ]
+    },
+    "systematic-review": {
+      "protocol_reporting": [
+        "prisma-p"
+      ],
+      "reporting": [
+        "prisma-2020"
+      ]
+    }
+  }
+}

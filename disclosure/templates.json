@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "required_fields": ["tool", "version", "developer", "purpose"],
+  "optional_fields": ["date", "verification"],
+  "templates": {
+    "acknowledgments": {
+      "en": "During the preparation of this work, the author(s) used {tool} ({version}, {developer}){date_clause} for {purpose}. The author(s) reviewed and edited the output and take(s) full responsibility for the content of this work.",
+      "es": "Durante la preparación de este trabajo, el equipo autor utilizó {tool} ({version}, {developer}){date_clause} para {purpose}. Los autores revisaron y editaron el resultado y asumen la plena responsabilidad por el contenido de este trabajo."
+    },
+    "methods": {
+      "en": "{tool} ({version}, {developer}) was used{date_clause} for {purpose}. Verification of the output: {verification}.",
+      "es": "Se utilizó {tool} ({version}, {developer}){date_clause} para {purpose}. Verificación del resultado: {verification}."
+    },
+    "cover_letter": {
+      "en": "In preparing this manuscript, the author(s) used {tool} ({version}, {developer}) for {purpose}. This use is disclosed in the {placement} section of the manuscript.",
+      "es": "En la preparación de este manuscrito, el equipo autor utilizó {tool} ({version}, {developer}) para {purpose}. Este uso se declara en el apartado «{placement}» del manuscrito."
+    }
+  },
+  "assertions": {
+    "acknowledgments": {"en": ["The author(s) reviewed and edited the output.", "The author(s) take(s) full responsibility for the content."], "es": ["Los autores revisaron y editaron el resultado.", "Los autores asumen la plena responsabilidad por el contenido."]},
+    "methods": {"en": ["The verification description is accurate."], "es": ["La descripción de la verificación es exacta."]},
+    "cover_letter": {"en": ["The use is disclosed in the stated section."], "es": ["El uso se declara en la sección indicada."]}
+  },
+  "locations": {
+    "cover_letter": {"en": "cover letter", "es": "carta de presentación"},
+    "acknowledgments": {"en": "acknowledgments", "es": "agradecimientos"},
+    "methods": {"en": "methods", "es": "métodos"},
+    "materials_and_methods": {"en": "materials and methods", "es": "materiales y métodos"},
+    "methodology": {"en": "methodology", "es": "metodología"},
+    "submission_form": {"en": "submission form", "es": "formulario de envío"},
+    "reference_list": {"en": "reference list", "es": "lista de referencias"},
+    "separate_section_before_references": {"en": "separate section before the references", "es": "sección independiente antes de las referencias"},
+    "dedicated_section": {"en": "dedicated section", "es": "sección específica"},
+    "dedicated_declaration": {"en": "dedicated declaration", "es": "declaración específica"},
+    "disclosure_section": {"en": "disclosure section", "es": "sección de declaración"},
+    "figure_legends": {"en": "figure legends", "es": "leyendas de las figuras"}
+  }
+}

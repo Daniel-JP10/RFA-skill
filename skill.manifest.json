@@ -1,0 +1,40 @@
+{
+  "name": "rfa-scholarly-writing",
+  "version": "0.1.0",
+  "description": "Helps structure scholarly documents and prepare verified, correctly formatted references and AI-use disclosures.",
+  "languages": [
+    "en",
+    "es"
+  ],
+  "entry_points": {
+    "scripts/recommend.py": "Recommends citation standard, reporting guideline, and document sections.",
+    "scripts/render_disclosure.py": "Builds AI-use disclosure statements according to venue policies.",
+    "references/scripts/resolve_metadata.py": "Verify a DOI, PMID or title against Crossref, doi.org and NCBI",
+    "references/scripts/format_reference.py": "Formats references and documents with CSL styles using pandoc or citeproc-py.",
+    "references/scripts/order_references.py": "Orders reference lists by citation style family rules.",
+    "references/scripts/validate_citations.py": "Validates consistency between in-text citations and reference entries.",
+    "references/scripts/check_et_al_rules.py": "Checks author-list truncation and et al. rules for citation styles.",
+    "references/scripts/abbreviate_journal.py": "Abbreviate journal titles from the item's short title or a user-supplied list"
+  },
+  "requirements": {
+    "python": ">=3.10",
+    "packages": [
+      "citeproc-py==0.11.1",
+      "requests==2.34.2",
+      "PyYAML==6.0.3"
+    ],
+    "optional": [
+      "pandoc"
+    ]
+  },
+  "data": {
+    "file": "data/rfa_data.json",
+    "schema_version": 1,
+    "core_version": "0.3.0"
+  },
+  "docs": {
+    "privacy": "PRIVACY.md",
+    "spanish": "docs/es/"
+  },
+  "license": "MIT"
+}

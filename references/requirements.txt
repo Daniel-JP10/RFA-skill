@@ -1,0 +1,4 @@
+# Runtime dependencies of the RFA skill tools; pandoc is installed separately (optional, recommended).
+citeproc-py==0.11.1
+requests==2.34.2
+PyYAML==6.0.3

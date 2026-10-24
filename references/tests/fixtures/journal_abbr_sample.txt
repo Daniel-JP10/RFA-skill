@@ -1,0 +1,16 @@
+--------------------------------------------------------
+JrId: 1
+JournalTitle: Journal of Examples
+MedAbbr: J Examples
+ISSN (Print): 1234-5678
+ISSN (Online): 8765-4321
+IsoAbbr: J. Examples
+NlmId: 000000001
+--------------------------------------------------------
+JrId: 2
+JournalTitle: Annals of Sample Medicine
+MedAbbr: Ann Sample Med
+ISSN (Print): 2345-6789
+ISSN (Online):
+IsoAbbr: Ann. Sample Med.
+NlmId: 000000002

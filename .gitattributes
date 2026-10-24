@@ -1,0 +1,4 @@
+# Normalize line endings in the repository and in working trees
+* text=auto eol=lf
+# CSL styles must keep their exact bytes (hashes are recorded in MANIFEST.yaml)
+*.csl -text

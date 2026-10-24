@@ -1,0 +1,117 @@
+manifest_version: 1
+license: CC BY-SA 3.0 (as declared by the source repository)
+source_repo: https://github.com/citation-style-language/styles
+downloaded_on: '2026-10-19'
+files:
+  - spec_name: apa-7.csl
+    upstream_file: apa.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+    sha256: 3917def5fc951b104d64216c3373096042368b9704ba269ca83c14ebaba889fc
+    csl_id: http://www.zotero.org/styles/apa
+    csl_title: APA Style 7th edition
+    csl_updated: '2026-02-07T00:00:00+00:00'
+    expected_edition_in_title: 7th
+    flag: null
+    note: null
+  - spec_name: mla-9.csl
+    upstream_file: modern-language-association.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/modern-language-association.csl
+    sha256: e1432698ef28938d044b06bd45ddcc57d6b974cec25f71007075646a11f99484
+    csl_id: http://www.zotero.org/styles/modern-language-association
+    csl_title: MLA Handbook 9th edition (in-text citations)
+    csl_updated: '2026-02-03T00:00:00+00:00'
+    expected_edition_in_title: 9th
+    flag: null
+    note: null
+  - spec_name: chicago-18-author-date.csl
+    upstream_file: chicago-author-date.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-author-date.csl
+    sha256: 002fade78d7e4fe9d42936a16b43a8066b097013f6255df40b1bfba6631eff9b
+    csl_id: http://www.zotero.org/styles/chicago-author-date
+    csl_title: Chicago Manual of Style 18th edition (author-date)
+    csl_updated: '2025-02-09T00:00:00+00:00'
+    expected_edition_in_title: 18th
+    flag: null
+    note: null
+  - spec_name: chicago-18-notes.csl
+    upstream_file: chicago-notes-bibliography.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/chicago-notes-bibliography.csl
+    sha256: 4b6be4bceaf8f3c31b49331c9f9e38c977f666d6ab80e19a2ac8482c7511abeb
+    csl_id: http://www.zotero.org/styles/chicago-notes-bibliography
+    csl_title: Chicago Manual of Style 18th edition (notes and bibliography)
+    csl_updated: '2025-02-09T00:00:00+00:00'
+    expected_edition_in_title: 18th
+    flag: null
+    note: null
+  - spec_name: ieee-2024.csl
+    upstream_file: ieee.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/ieee.csl
+    sha256: b4c7619fc16c45a31e4cc3271eab94ffe83192d3b4c7fc729470a3b459448de3
+    csl_id: http://www.zotero.org/styles/ieee
+    csl_title: IEEE Reference Guide version 11.29.2023
+    csl_updated: '2024-03-27T11:41:27+00:00'
+    expected_edition_in_title: null
+    flag: null
+    note: The CSL implements version 11.29.2023 of the IEEE Reference Guide (updated
+      in 2024); the official guide may be more recent.
+  - spec_name: vancouver.csl
+    upstream_file: nlm-citation-sequence.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/nlm-citation-sequence.csl
+    sha256: 492f7935df42054b33d515f7275122f419780df990ea35925dcbbff0fecf1137
+    csl_id: http://www.zotero.org/styles/nlm-citation-sequence
+    csl_title: 'NLM/Vancouver: Citing Medicine 2nd edition (citation-sequence)'
+    csl_updated: '2026-01-07T00:00:00+00:00'
+    expected_edition_in_title: null
+    flag: null
+    note: 'Content: NLM/Vancouver style (Citing Medicine 2nd ed., citation-sequence).
+      The file name is the spec name; the source repository has no standalone vancouver.csl.'
+  - spec_name: ama-11.csl
+    upstream_file: american-medical-association.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/american-medical-association.csl
+    sha256: d70f843d93c2b1e8c59c0e26e2396bea4ed99fb4a1aac69b6dddc249a10fadf7
+    csl_id: http://www.zotero.org/styles/american-medical-association
+    csl_title: AMA Manual of Style 11th edition
+    csl_updated: '2026-02-06T00:00:00+00:00'
+    expected_edition_in_title: 11th
+    flag: null
+    note: null
+  - spec_name: acs.csl
+    upstream_file: american-chemical-society.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/american-chemical-society.csl
+    sha256: 6dac0308d4c0e2b462ef4c7607b970fda9be9a730784c93568e6e3cc8639bce6
+    csl_id: http://www.zotero.org/styles/american-chemical-society
+    csl_title: ACS Guide 2026 revision
+    csl_updated: '2026-08-25T12:37:10+00:00'
+    expected_edition_in_title: null
+    flag: null
+    note: null
+  - spec_name: cse-citation-sequence.csl
+    upstream_file: cse-citation-sequence.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/cse-citation-sequence.csl
+    sha256: ab4aa70c46ae60a8fc0bbc86e209a189202426abd97bb1020fd4bb04b8c9ab30
+    csl_id: http://www.zotero.org/styles/cse-citation-sequence
+    csl_title: 'CSE Manual: Scientific Style and Format 9th edition (citation-sequence)'
+    csl_updated: '2024-05-31T14:16:14+00:00'
+    expected_edition_in_title: 9th
+    flag: null
+    note: null
+  - spec_name: cse-name-year.csl
+    upstream_file: cse-name-year.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/cse-name-year.csl
+    sha256: 130cf5f200be44e6534f86374e702163ad09cd2c09add9fd5b5e5830eba93252
+    csl_id: http://www.zotero.org/styles/cse-name-year
+    csl_title: 'CSE Manual: Scientific Style and Format 9th edition (name-year)'
+    csl_updated: '2025-09-12T07:37:16+00:00'
+    expected_edition_in_title: 9th
+    flag: null
+    note: null
+  - spec_name: cse-citation-name.csl
+    upstream_file: cse-citation-name.csl
+    upstream_url: https://raw.githubusercontent.com/citation-style-language/styles/master/cse-citation-name.csl
+    sha256: 03fe767a2d620d98906f0890f2f8b2b0322ab91d86a78e60aaddfb7e13cd9367
+    csl_id: http://www.zotero.org/styles/cse-citation-name
+    csl_title: 'CSE Manual: Scientific Style and Format 9th edition (citation-name)'
+    csl_updated: '2025-09-12T07:45:50+00:00'
+    expected_edition_in_title: 9th
+    flag: null
+    note: null
